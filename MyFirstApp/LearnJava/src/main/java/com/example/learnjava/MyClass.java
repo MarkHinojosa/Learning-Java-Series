@@ -24,6 +24,10 @@ public class MyClass {
         String name = "Georgina";//unlimited string length
         char a = 77; //only 1 character allowed, or number converted to unicode, notice single quotes
 
-        System.out.println("My name is " + pid  + " and I'm " + age + " years old.");
+
+        boolean isTrue;
+        isTrue = true;
+
+        System.out.println("My name is " + isTrue  + " and I'm " + age + " years old.");
     }
 }
