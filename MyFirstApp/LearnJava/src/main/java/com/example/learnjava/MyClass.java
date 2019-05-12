@@ -4,7 +4,6 @@ public class MyClass {
     public static void main(String[] args) {
 
 
-
 //        System.out.println("Hello World");
 
 //        //variable == bucket in memory
@@ -32,11 +31,16 @@ public class MyClass {
 //
 //        System.out.println("My name is " + isTrue  + " and I'm " + age + " years old.");
 
-        double a = 12;
-        double b = 12;
+//        double a = 12;
+//        double b = 12;
 
         //Subtraction and addition (-,+)
-        double total = (int) (b / a);//casting
-        System.out.println("The total is " + total);
+        //double total = (int) (b / a);//casting
+
+        double a = 12;
+        double b = 7;
+        double remainder = a % b;//remainder % == "what remains...
+        System.out.println("Remainder is: " + remainder);
+
     }
 }
