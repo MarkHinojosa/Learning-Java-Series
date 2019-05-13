@@ -53,12 +53,15 @@ public class MyClass {
 //            == --> comparison
 //            != --> NOT
 //            ! -- Negation
-
+//              > --> GREATER THAN
+//            < --> LESS THAN
+//            >= --> GREATER THAN OR EQUAL TO
+//            <= --> LESS THAN OR EQUAL TO
         double a = 13;
         double b = 11;
         boolean isAged = true;
 
-        if(!isAged) {
+        if( a >= b ) {
             System.out.println("Indeed!");
         } else {
             System.out.println("Not true!");
