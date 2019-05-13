@@ -37,10 +37,32 @@ public class MyClass {
         //Subtraction and addition (-,+)
         //double total = (int) (b / a);//casting
 
-        double a = 12;
-        double b = 7;
-        double remainder = a % b;//remainder % == "what remains...
-        System.out.println("Remainder is: " + remainder);
+//        double a = 12;
+//        double b = 7;
+//        double remainder = a % b;//remainder % == "what remains...
+//        System.out.println("Remainder is: " + remainder);
+
+
+//        _____________
+
+        //Control Flow - Introduction Video #17
+        //if statements
+//
+//        --- Relational Operators ---
+//            = --> assignment
+//            == --> comparison
+//            != --> NOT
+//            ! -- Negation
+
+        double a = 13;
+        double b = 11;
+        boolean isAged = true;
+
+        if(!isAged) {
+            System.out.println("Indeed!");
+        } else {
+            System.out.println("Not true!");
+        }
 
     }
 }
