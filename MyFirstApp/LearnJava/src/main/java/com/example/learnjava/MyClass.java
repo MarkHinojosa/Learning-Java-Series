@@ -67,5 +67,7 @@ public class MyClass {
             System.out.println("Not true!");
         }
 
+//        video 19
+    
     }
 }
