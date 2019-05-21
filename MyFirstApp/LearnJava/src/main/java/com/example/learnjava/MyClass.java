@@ -57,17 +57,31 @@ public class MyClass {
 //            < --> LESS THAN
 //            >= --> GREATER THAN OR EQUAL TO
 //            <= --> LESS THAN OR EQUAL TO
-        double a = 13;
-        double b = 11;
-        boolean isAged = true;
+//        double a = 13;
+//        double b = 11;
+//        boolean isAged = true;
+//
+//        if( a >= b ) {
+//            System.out.println("Indeed!");
+//        } else {
+//            System.out.println("Not true!");
+//        }
+       /*
+        - Video #19 -
+        ===Logical Operators ===
+        AND --> : returns false if one is false
+        OR --> || : returns true if one side is true
+        ! --> Negation
 
-        if( a >= b ) {
-            System.out.println("Indeed!");
-        } else {
-            System.out.println("Not true!");
+        if (isAged || isNotAged){
+            System.out.println("Can consume beer!");
+        }else {
+            System.out.println("Not allowed to consume beer!");
         }
 
-//        video 19
+         */
+
+
     
     }
 }
