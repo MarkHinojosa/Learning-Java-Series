@@ -1,5 +1,7 @@
 package com.example.learnjava;
 
+import java.sql.SQLOutput;
+
 public class MyClass {
     public static void main(String[] args) {
 
@@ -105,10 +107,38 @@ public class MyClass {
 
         */
 
-       
+       /* - Video 22 -
+       === Function Parameters ===
+       *make the method call from within the main method
+       * place method body outside of main method
+       *
+       *
+     addNumbers(5,3);
+        multiplyNumbers(4, 3);
+        divideNumbers(35,7);
+
+        public static void addNumbers(int a, int b){
+            int sum = a + b;
+            System.out.println("Addition Sum is: " + sum);
+        }
+
+        public static void multiplyNumbers(int a, int b){
+            int sum = a * b;
+            System.out.println("Multiply sum is: " + sum);
+        }
+
+        public static void divideNumbers(int a, int b){
+            int sum = a / b;
+            System.out.println("Divide sum is: " + sum);
+
+        }
+        
+        */
 
 
     }
+
+
 
 
 }
