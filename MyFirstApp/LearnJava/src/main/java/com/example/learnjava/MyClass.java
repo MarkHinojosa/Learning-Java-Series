@@ -92,6 +92,23 @@ public class MyClass {
         */
 
 
+       /* - Video #21 -
+       === Methods and String Parameters ===
+       *Make the method call from within the "main" method*
+         showName("mark");
+         *Place the method outside of the "main" method*
+
+
+           public static void showName(String name) {
+        System.out.println("Name is " + name);
+    }
+
+        */
+
+       
+
 
     }
+
+
 }
