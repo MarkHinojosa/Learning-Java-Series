@@ -129,7 +129,10 @@ public class MyClass {
             System.out.println("Multiply sum is: " + sum);
         }
 
-        public static void divideNumbers(int a, int b){
+
+            **** Use at least one Double to allow for decimals ***
+            
+        public static void divideNumbers(double a, int b){
             int sum = a / b;
             System.out.println("Divide sum is: " + sum);
 
@@ -165,7 +168,7 @@ public class MyClass {
 
         */
 
-       
+
 
 
     }
