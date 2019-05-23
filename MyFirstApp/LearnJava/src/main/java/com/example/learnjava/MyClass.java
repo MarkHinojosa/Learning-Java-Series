@@ -140,7 +140,7 @@ public class MyClass {
        /*
        - Video 23 -
        === Return Types In Methods ===
-       
+
        System.out.println(  myFullName("Mark", "Hinojosa"));
 
        public static String myFullName(String firstName, String lastName){
@@ -148,10 +148,28 @@ public class MyClass {
     }
         */
 
+       /*
+       - video 24 -
+       === String Return Function Type ===
 
+       String blah = showBio("mark", " I was born in Texas.", 33);
+
+        System.out.println(blah);
+
+
+           public static String showBio(String name, String bio, int age) {
+
+        return " My name is " + name + " and I am " + age + " years old. " + bio;
+
+    }
+
+        */
+
+       
 
 
     }
+
 
 
 
