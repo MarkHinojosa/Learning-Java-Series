@@ -107,7 +107,9 @@ public class MyClass {
 
         */
 
-       /* - Video 22 -
+       /*
+
+       - Video 22 -
        === Function Parameters ===
        *make the method call from within the main method
        * place method body outside of main method
@@ -132,8 +134,21 @@ public class MyClass {
             System.out.println("Divide sum is: " + sum);
 
         }
-        
+
         */
+
+       /*
+       - Video 23 -
+       === Return Types In Methods ===
+       
+       System.out.println(  myFullName("Mark", "Hinojosa"));
+
+       public static String myFullName(String firstName, String lastName){
+        return "my name is " + firstName + " " + lastName;
+    }
+        */
+
+
 
 
     }
