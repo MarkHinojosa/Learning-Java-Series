@@ -19,9 +19,6 @@ public class MyClass {
         System.out.println(rode);
         System.out.println(microphone);
 
-
-
-
         microphone.turnOn();
         microphone.turnOff();
         microphone.setVolume();
@@ -32,6 +29,9 @@ public class MyClass {
 
         System.out.println(microphone.showDescription());
         System.out.println(rode.showDescription());
+
+        //--- Video 29 ---
+        
 
 
 
