@@ -6,7 +6,7 @@ public class MyClass {
 
 //        --- Video 28 ---
 //        ===Creating First Java Class
-        Microphone microphone = new Microphone();
+    /*    Microphone microphone = new Microphone();
         microphone.color = "Blue";
         microphone.name = "Blue Yeti";
         microphone.model = 1234;
@@ -19,6 +19,9 @@ public class MyClass {
         System.out.println(rode);
         System.out.println(microphone);
 
+        //--- Video 29 ---
+        ===Adding Description Method To Class
+
         microphone.turnOn();
         microphone.turnOff();
         microphone.setVolume();
@@ -29,9 +32,15 @@ public class MyClass {
 
         System.out.println(microphone.showDescription());
         System.out.println(rode.showDescription());
-
-        //--- Video 29 ---
-        
+*/
+      /*
+        --- Video 30 ---
+        ===Contructors In Java===
+     Microphone microphone = new Microphone("Blue Yeti", "Blue", 1234);
+      Microphone rode = new Microphone("Rode","Black",12344);
+        System.out.println(microphone.showDescription());
+        System.out.println(rode.showDescription());
+        */
 
 
 
