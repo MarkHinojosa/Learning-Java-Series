@@ -5,6 +5,14 @@ public class Microphone {
     String color;
     int model;
 
+    //Custom Constructor Video #30
+
+    public Microphone(String name, String color, int model ) {
+        this.name = name;
+        this.color = color;
+        this.model = model;
+    }
+
 
     public void  turnOn(){
         System.out.println(this.name + " Turn On");
