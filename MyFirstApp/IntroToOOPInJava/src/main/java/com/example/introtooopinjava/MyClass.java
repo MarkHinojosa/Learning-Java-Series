@@ -53,11 +53,15 @@ public class MyClass {
         System.out.println(microphone.showDescription());
        */
 
-
-
-
-
-
+      /*
+      --- Video 32 ---
+      ===Overloading Constructors===
+      //Overloading just means having the ability to use different constructors in a class based
+      on how many parameters are being used in the function call
+      
+      Microphone Alpha = new Microphone();
+      Microphone Beta = new Microphone("Answer","Large");
+       */
 
     }
 
