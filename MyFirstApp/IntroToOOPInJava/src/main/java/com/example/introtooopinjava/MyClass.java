@@ -42,6 +42,21 @@ public class MyClass {
         System.out.println(rode.showDescription());
         */
 
+      /*
+      ---Video 31 ---
+      ===Setters and Getters===
+        Microphone microphone = new Microphone("Blue Yeti","Blue",144);
+        microphone.setColor("Black");
+        microphone.setName("New Blue Yeti");
+        microphone.setModel(1234);
+        System.out.println(microphone);
+        System.out.println(microphone.showDescription());
+       */
+
+
+
+
+
 
 
     }
