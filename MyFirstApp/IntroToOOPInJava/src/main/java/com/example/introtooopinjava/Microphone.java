@@ -53,4 +53,17 @@ public class Microphone {
     public String showDescription(){
         return "Name:" + this.name + " Color: " + this.color + " Model: " + this.model;
     }
+
+
+    //Overloading The Constructors - Video #32
+
+
+    public Microphone(){
+    }
+
+    public  Microphone(String name, String type ){
+        this.name = name;
+        this.color = color;
+    }
+
 }
