@@ -7,6 +7,7 @@ public class MyClass {
         /*
         ---Video 36 ---
         === Creating An Inheritance Structure ===
+        */
         Person james = new Person();
         Person carl = new Person("carl","winslow",45);
         Employee employee = new Employee();
@@ -26,8 +27,8 @@ public class MyClass {
 
         System.out.println(manager.getAnnualSalary() + ", " + manager.getFirstName());
 
-                 */
-        
+
+
     }
 
 }
