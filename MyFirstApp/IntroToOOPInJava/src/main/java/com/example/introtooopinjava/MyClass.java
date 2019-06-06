@@ -4,29 +4,22 @@ public class MyClass {
     // ____Intro To Object Oriented Programming In Java___
     public static void main(String[] args){
 
-        /*
-        ---Video 36 ---
-        === Creating An Inheritance Structure ===
-        */
-        Person james = new Person();
-        Person carl = new Person("carl","winslow",45);
-        Employee employee = new Employee();
-        employee.setFirstName("James");
-        employee.setLastName("Bond");
-        employee.setAge(45);
-        employee.setId(332);
-        employee.setAnnualSalary(100000);
+/*
+    ---Video 39 ---
+    ===String is an Object After all!===
+    //notice the .isEmpty() method that the String variable has access to
 
-        System.out.println(employee.getAnnualSalary());
 
-        Manager manager = new Manager();
-        manager.setFirstName("Manager Carlos");
-        manager.setLastName("Rodriguez");
-        manager.setAge(45);
-        manager.setAnnualSalary(45000);
+    String mystring = "";
+    boolean isEmpty = mystring.isEmpty();
 
-        System.out.println(manager.getAnnualSalary() + ", " + manager.getFirstName());
+    if(!isEmpty){
+        System.out.println(mystring);
+    } else {
+        System.out.println("Empty");
+    }
 
+     */
 
 
     }
@@ -93,3 +86,27 @@ public class MyClass {
       Microphone Alpha = new Microphone();
       Microphone Beta = new Microphone("Answer","Large");
        */
+
+              /*
+        ---Video 36 ---
+        === Creating An Inheritance Structure ===
+
+        Person james = new Person();
+        Person carl = new Person("carl","winslow",45);
+        Employee employee = new Employee();
+        employee.setFirstName("James");
+        employee.setLastName("Bond");
+        employee.setAge(45);
+        employee.setId(332);
+        employee.setAnnualSalary(100000);
+
+        System.out.println(employee.getAnnualSalary());
+
+        Manager manager = new Manager();
+        manager.setFirstName("Manager Carlos");
+        manager.setLastName("Rodriguez");
+        manager.setAge(45);
+        manager.setAnnualSalary(45000);
+
+        System.out.println(manager.getAnnualSalary() + ", " + manager.getFirstName());
+*/
