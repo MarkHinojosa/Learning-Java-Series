@@ -1,9 +1,10 @@
 # Learning-Java-Series
 The Comprehensive 2019 Android Development Master Class 
 
+Featuring Paulo Dichone
 
+-- Excerpt from description:
 
-Paulo
 
 What you’ll learn
 Master Java Programming Language
