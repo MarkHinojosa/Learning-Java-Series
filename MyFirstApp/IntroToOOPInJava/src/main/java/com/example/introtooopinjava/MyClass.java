@@ -4,22 +4,8 @@ public class MyClass {
     // ____Intro To Object Oriented Programming In Java___
     public static void main(String[] args){
 
-/*
-    ---Video 39 ---
-    ===String is an Object After all!===
-    //notice the .isEmpty() method that the String variable has access to
+            //---Video 40
 
-
-    String mystring = "";
-    boolean isEmpty = mystring.isEmpty();
-
-    if(!isEmpty){
-        System.out.println(mystring);
-    } else {
-        System.out.println("Empty");
-    }
-
-     */
 
 
     }
@@ -110,3 +96,20 @@ public class MyClass {
 
         System.out.println(manager.getAnnualSalary() + ", " + manager.getFirstName());
 */
+
+              /*
+    ---Video 39 ---
+    ===String is an Object After all!===
+    //notice the .isEmpty() method that the String variable has access to
+
+
+    String mystring = "";
+    boolean isEmpty = mystring.isEmpty();
+
+    if(!isEmpty){
+        System.out.println(mystring);
+    } else {
+        System.out.println("Empty");
+    }
+
+     */
