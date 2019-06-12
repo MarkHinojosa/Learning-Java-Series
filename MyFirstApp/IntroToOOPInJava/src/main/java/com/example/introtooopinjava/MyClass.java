@@ -1,5 +1,7 @@
 package com.example.introtooopinjava;
 
+import java.util.Arrays;
+
 public class MyClass {
     // ____Intro To Object Oriented Programming In Java___
     public static void main(String[] args){
@@ -15,7 +17,32 @@ public class MyClass {
         for (int i = 0; i < myArray.length; i++) {
         System.out.println("Items: " + myArray[i]);
         System.out.println(names[1]);
+
          */
+
+        /* --- Video 43 ---
+        === Presetting Arrays Length ===
+                int[] newArray = new int[4];
+        String[] newNames = new String[3];
+
+        newArray[0] = 30;
+        newArray[1] = 31;
+        newArray[2] = 32;
+        newArray[3] = 33;
+//        newArray[4]= 34;
+
+        newNames[0] = "dog";
+        newNames[1] = "cat";
+        newNames[2] = "mouse";
+
+        for (int i = 0; i < newArray.length; i++) {
+            System.out.println("Items: " + newArray[i]);
+
+        }
+        System.out.println(Arrays.toString(newNames));
+         */
+
+
 
     }
 
