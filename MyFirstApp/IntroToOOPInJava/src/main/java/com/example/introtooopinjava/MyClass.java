@@ -4,9 +4,18 @@ public class MyClass {
     // ____Intro To Object Oriented Programming In Java___
     public static void main(String[] args){
 
-            //---Video 40
+            //---Video 40--
+            //--Video 41 ---
 
+        /* ---Video 42 ---
+        === Creating and Looping through Arrays===
+        int[] myArray = { 1, 33, 4, 12, 89, 98}; //length = 6
+        String [] names = {"James", "Anthony", "Rodrigo", "Niraj"};
 
+        for (int i = 0; i < myArray.length; i++) {
+        System.out.println("Items: " + myArray[i]);
+        System.out.println(names[1]);
+         */
 
     }
 
