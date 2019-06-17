@@ -1,5 +1,6 @@
 package com.example.introtooopinjava;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MyClass {
@@ -42,6 +43,18 @@ public class MyClass {
         System.out.println(Arrays.toString(newNames));
          */
 
+        /*
+         --- Video 44 ---
+         === ArrayLists - and Introduction ===
+         //Arraylist allows ability to restrict data type into array
+         // additionally can use object dot method to add/remove
+                 ArrayList name = new ArrayList();
+        name.add(1);
+        name.add("Hello");
+        name.remove("Hello");
+        name.remove(0);
+        System.out.println(name);
+         */
 
 
     }
