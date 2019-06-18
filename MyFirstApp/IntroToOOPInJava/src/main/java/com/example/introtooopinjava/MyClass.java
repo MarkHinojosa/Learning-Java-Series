@@ -56,6 +56,29 @@ public class MyClass {
         System.out.println(name);
          */
 
+        /*
+        --- Video 45 ---
+        === Looping Through Arrays ===
+               ArrayList names = new ArrayList();
+        names.add("James");
+        names.add("Bond");
+        names.add("Bonni");
+        names.add("Arnold");
+
+//        System.out.print(names.size());
+
+        for (int i = 0; i < names.size(); i++){
+            System.out.println("Names " + names.get(i));
+        }
+
+        //Clever for Loop
+        for(Object n : names){
+
+            System.out.println("Names: " + n);
+
+        }
+         */
+        
 
     }
 
